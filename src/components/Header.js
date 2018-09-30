@@ -11,7 +11,7 @@ class Header extends React.Component {
                     <p>drugi red<br />
                   treći red.</p>
                     <ul className="actions">
-                        <li><a href="#one" className="button scrolly">Discover</a></li>
+                        <li><a href="#one" className="button scrolly">Saznaj više</a></li>
                     </ul>
                 </div>
             </section>
