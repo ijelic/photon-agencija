@@ -7,7 +7,7 @@ class Header extends React.Component {
                 <div className="inner">
                     <span className="icon major fa-cloud"></span>
                     <h1><strong>Photon agencija</strong><br />
-                    prvi red</a>.</h1>
+                    prvi red.</h1>
                     <p>drugi red<br />
                   treći red.</p>
                     <ul className="actions">
