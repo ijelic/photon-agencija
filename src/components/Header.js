@@ -12,10 +12,11 @@ class Header extends React.Component {
 <span className="logo"><img src={logo} alt="" /></span>
 
                     <h1><strong>SELECTION CONSULTING</strong></h1>
-                    <p>prvi red.</p>
-                    <p>drugi red</p>
+                    <p><span className="icon fa-envelope"> email adresa</span></p>
+                    <p><span className="icon fa-phone"> Telefonski broj</span></p>
+                    <p><span className="icon fa-map-marker"> Adresa</span></p>
 
-                  <p>treći red.</p>
+
                     <ul className="actions">
                         <li><a href="#one" className="button scrolly">Saznaj više</a></li>
                     </ul>
