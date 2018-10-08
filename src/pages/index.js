@@ -92,18 +92,7 @@ class Homepage extends React.Component {
                     </div>
                 </section>
 
-                <section id="four" className="main style2 special">
-                    <div className="container">
-                        <header className="major">
-                            <h2>Kontakt</h2>
-                        </header>
-                      <p>Sed lacus nascetur ac ante amet sapien.</p>
-                        <ul className="actions uniform">
-                            <li><a href="#" className="button special">Prijavi se</a></li>
-                            <li><a href="#" className="button">Saznaj više</a></li>
-                        </ul>
-                    </div>
-                </section>
+
             </Layout>
         );
     }
