@@ -10,7 +10,7 @@ import pic04 from '../assets/images/pic04.jpg'
 
 class Homepage extends React.Component {
     render() {
-        const siteTitle = "Photon Agencija";
+        const siteTitle = "Selection consulting";
 
         return (
             <Layout>
@@ -20,8 +20,8 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Vizija
-                                i misija</h2>
+                                <h2>Naše usluge
+                              </h2>
                             </header>
                             <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
                         </div>
@@ -35,10 +35,10 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <ul className="major-icons">
-                                <li><span className="icon style1 major fa-code"></span></li>
-                                <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
+                                <li><span className="icon style1 major fa-umbrella"></span></li>
+                                <li><span className="icon style2 major fa-cog"></span></li>
+                                <li><span className="icon style3 major fa-comment"></span></li>
+                                <li><span className="icon style4 major fa-bolt"></span></li>
                                 <li><span className="icon style5 major fa-desktop"></span></li>
                                 <li><span className="icon style6 major fa-calendar"></span></li>
                             </ul>
@@ -66,26 +66,26 @@ class Homepage extends React.Component {
 
                         <div className="col-4">
                             <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>Projekt 1</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Više</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>Projekt 2</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Više</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
                             <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
+                            <h3>Projekt 3</h3>
                             <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="#" className="button">Više</a></li>
                             </ul>
                         </div>
 
@@ -95,12 +95,12 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Kontakt</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
+                      <p>Sed lacus nascetur ac ante amet sapien.</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href="#" className="button special">Prijavi se</a></li>
+                            <li><a href="#" className="button">Saznaj više</a></li>
                         </ul>
                     </div>
                 </section>

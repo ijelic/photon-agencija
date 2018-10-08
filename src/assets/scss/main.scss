@@ -84,7 +84,7 @@
 	}
 
 	h1 {
-		font-size: 3em;
+		font-size: 3.5em;
 		line-height: 2.25em;
 	}
 
@@ -464,12 +464,18 @@
 	}
 
 /* Image */
+.logo {
 
+	border-radius: _size(border-radius);
+	border: 0;
+	display: inline-block;
+	position: relative;}
 	.image {
 		border-radius: _size(border-radius);
 		border: 0;
 		display: inline-block;
 		position: relative;
+
 
 		img {
 			border-radius: _size(border-radius);
@@ -655,6 +661,10 @@
 				table-layout: fixed;
 				width: calc(100% + #{(_size(element-margin) * 0.5)});
 
+
+
+
+
 				li {
 					display: table-cell;
 					padding: 0 0 0 (_size(element-margin) * 0.5);
@@ -804,6 +814,7 @@
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 100%;
 		}
+
 
 		&.small {
 			font-size: 0.7em;
@@ -1208,6 +1219,7 @@
 				font-size: 1em;
 			}
 
+
 		/* List */
 
 			ul {
@@ -1229,7 +1241,12 @@
 			}
 
 		/* Icon */
-
+		.logo {
+		width: calc(100% + #{(_size(element-margin) * 0.5)});
+			border-radius: _size(border-radius);
+			border: 0;
+			display: inline-block;
+			position: relative;}
 			.icon {
 				&.major {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
